@@ -1,0 +1,11 @@
+*.swp
+*~
+.DS_Store
+build/
+debug/
+disassembly/
+dist/
+*/nbproject/private/
+*/nbproject/Makefile-*
+*/nbproject/Package-*
+build/
