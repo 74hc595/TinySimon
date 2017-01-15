@@ -1,0 +1,15 @@
+Ref  Qty  Manufacturer       Part number
+=========================================================
+B1     1  Linx Technologies  BAT-HLD-001
+D1     1  Kingbright         APT3216LSECK/J3-PRV (red)
+D2     1  Kingbright         APT3216LSYCK/J3-PRV (yellow)
+D3     1  Kingbright         APT3216LZGCK (green)
+D4     1  Kingbright         APT3216LVBC/D (blue)
+R1-R4  4                     Resistor, 1M, 1206
+R6-R9  4                     Resistor, 1K, 1206
+S1-S4  4  TE Connectivity    FSMSM
+U1     1  Microchip          PIC10F200T
+Y1     1  Murata             PKMCS0909E4000-R1
+
+
+* lol, I missed R5
