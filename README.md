@@ -48,6 +48,8 @@ The LEDs chosen have very low current consumption (very bright when drawing only
 
 The components fit on a double-sided 2 layer board roughly the size of a bottle cap. The battery holder is on the board's underside. I laid out the schematic and PCB in [KiCad](kicad-pcb.org) and had the boards made by the wonderful [OSH Park](oshpark.com).
 
+All components are surface-mount; the resistors and LEDs have 1206 packages, which aren't too difficult to solder by hand. I assembled the board using just a soldering iron, tweezers, flux, 0.032"-diameter solder, and a dab of solder paste for the PIC.
+
 The circuit also fits nicely on a breadboard; the PIC10F200 comes in a DIP-8 package.
 
 
