@@ -75,6 +75,15 @@ Lots of fun tricks are used to minimize code size--jumping into the middle of fu
 ## Known limitations
 
 - There are two instances of barely-noticeable LED ghosting: tiny amounts of current flow through the yellow LED when the green button is pressed, and through the blue LED when the "game over" sound is played.
+- Pressing multiple buttons at once may have strange effects. I think I've seen this cause the PIC to lock up, and become nonfunctional until the battery is removed and reinserted.
+
+
+## Code flashing notes
+
+I've added a 5-pad header that corresponds to pins 1-5 of the standard 6-pin ICSP header. However, because the PIC10F200 does not support low-voltage programming, it's not possible to flash the chip when it is running off battery power. I have not had success getting the PICkit 3's "Power Target from Tool" to work; often this just results in the message `"The target has invalid calibration data"`. I recommend two approaches:
+
+1. Remove the battery, solder temporary wires to the positive and negative terminals of the battery holder, and connect an external 5V power supply before flashing.
+2. Build a small programming rig and flash the PIC before soldering it. I took an unpopulated board, soldered kynar wires to the ICSP header, and pressed the chip down on its footprint with tweezers during the flashing process. [See this tweet.](https://twitter.com/txsector/status/820902612333535232)
 
 
 ## Enjoy!
